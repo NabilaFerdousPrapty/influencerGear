@@ -1,0 +1,121 @@
+@media only screen and (max-width:992px){
+    .nav-items{
+        gap: 20px;  
+    }
+    .banner-box .title{
+        font-size: 32px;
+        
+        }
+        .banner-box .sub-title{
+            
+            margin: 10px 0px;
+            font-size: 12px;
+        }
+        .description{
+            margin-top: 30px ;
+           
+            
+            gap: 90px;
+        }
+        .description-image{
+            width: 75%;
+            height: 75%;
+            padding-bottom: 70px;
+        }
+        .websites ul {
+           
+            padding: 20px ;
+        }
+        .websites ul li img{
+            height: 80%;
+            width: 80%;
+        }
+        /* main section */
+        .collection-items{
+           
+            grid-template-columns: repeat(2,1fr);
+            grid-row-gap: 25px;
+            grid-column-gap: 25px;
+           
+             
+        }
+       
+
+}
+@media only screen and (max-width:576px) {
+    .nav-items{
+        gap: 12px;  
+    }
+    .nav-items li{
+       
+    font-size: 8px;
+    
+    }
+    .logo{
+        font-size: 10px;
+    }
+    .banner-box .title{
+        text-align: center;
+        font-size: 25px;
+        
+        }
+        .banner-box .sub-title{
+            
+          text-align: center;
+            font-size: 10px;
+        }
+        .websites ul {
+            gap:6px;
+            justify-content:center;
+           
+        }
+        .description{
+           
+           
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 0px;
+            align-items: center;
+            
+        }
+        .description-image{
+            padding: 0;
+            margin: 0;
+            width: 90%;
+            height: 90%;
+            padding-bottom: 40px;
+            background-image: url(images/Circle\ design.svg);
+            background-size: cover;
+        }
+       
+       .prebook , .join-now{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+       }
+        .collection-items{
+           
+            grid-template-columns: repeat(1,1fr);
+            grid-row-gap: 15px;   
+             
+        }
+        .featured-products{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 95px;
+        }
+        .section-margin{
+            margin-top: 20px;
+        }
+        .join-image{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 90%;
+            width: 90%;
+        }
+        
+}

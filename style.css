@@ -15,17 +15,22 @@ body{
 /* header section */
 .container{
     max-width: 1140px;
+    width: 100%;
     margin: 0 auto;
+    padding: 18px;
 }
+
 .navbar{
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
 }
 .nav-items{
     display: flex;
+   
     align-items: center;
-    justify-content: space-between;
+    
     gap: 34px;
     
 }
@@ -91,7 +96,7 @@ color: white;
 .websites ul {
     display: flex;
     justify-content: space-between;
-
+    flex-wrap: wrap;
     align-items: center;
     border-top: 3px #F1E4FF solid;
     border-bottom: 3px #F1E4FF solid;
@@ -178,7 +183,10 @@ font-weight: 700;
 line-height: 24px;
 word-wrap: break-word;
 }
-.media-logos img{
+.media-logo img{
     margin-left: 16px;
     margin-top: 17px;
 }
+
+
+/* media quary styles */
